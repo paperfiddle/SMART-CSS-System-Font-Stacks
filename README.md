@@ -12,18 +12,38 @@ These are the fonts used by operating systems - compared to a 'system' font whic
 
 When creating a stack, order matters. This table shows the generally accepted order and is how the rest of this page is structured. 
 
-| Family | OS |
-|--------|----|
-| San Francisco | OS X 10.11 El Capitan + |
-| Helvetic Neue | OS X 10.10 Yosemite + |
-| Lucida | OS X 10.9 Mavericks + |
-| Segoe UI | Windows Vista + |
-| Fira | Firefox OS |
-| Roboto | Android 4.0 Ice Cream Sandwich + |
-| Droid | Android 3.26 Honeycomb <= |
-| Oxygen | KDE Linux |
-| Umbutu | Umbutu |
-| Cantarell | GNOME |
+| Family | OS | Resource |
+|--------|----|----------|
+| San Francisco | OS X 10.11 El Capitan + | https://developer.apple.com/fonts/ |
+| Helvetic Neue | OS X 10.10 Yosemite + ||
+| Lucida | OS X 10.9 Mavericks + ||
+| Segoe UI | Windows Vista + | http://www.microsoft.com/typography/Fonts/family.aspx?FID=331 |
+| Fira | Firefox OS | http://mozilla.github.io/Fira/ |
+| Roboto | Android 4.0 Ice Cream Sandwich + ||
+| Droid | Android 3.26 Honeycomb <= ||
+| Oxygen | KDE Linux ||
+| Umbutu | Umbutu | https://design.ubuntu.com/font/ |
+| Cantarell | GNOME ||
+| Tahoma | Windows XP | http://www.microsoft.com/typography/fonts/family.aspx?FID=19 |
+
+That said, you may need or want to backfill your stacks with some native fonts - I've included some at the end.
+
+| OS | Resource |
+|----|----------|
+| macOS Sierra | https://support.apple.com/en-us/HT206872 |
+| OS X 10.11 El Capitan | |
+| OS X 10.10 Yosemite + | |
+| OS X 10.9 Mavericks + | |
+| Windows 10 | |
+| Windows Vista| |
+| Windows XP | |
+| Firefox OS | |
+| Android 4.0 | |
+| Android 3.26 | |
+| Linux| |
+| GNOME | |
+
+
 
 ## Resources 
 
@@ -44,8 +64,8 @@ These are generic names that render fonts using the device's system UI font.
 * They don't cover all devices or browsers. 
 * If I understand correctly, these turn rendering over to algorithms that make decisions based on things like `font-size`. 
 * I'm guessing this accounts for sans vs serif vs mono, and bold + italics - even though I'm not aware of, say, San Francisco serif or mono. 
-* The beauty of using `@font-face` to make system UI stacks is that you're free to make choices like, say using San Francisco Medium vs Regular as your body font. 
-* While it's most common to see these listed first, I think they make more sense last - I want my specific styles used first, but in case that doesn't work, go ahead and use the algorithm. 
+* The beauty of using `@font-face` to make system UI stacks is that you're free to make choices like, say, using San Francisco Medium vs Regular as your body font. 
+* While it's most common to see these listed first, **I think these make more sense at the end of the stack** - I want my specific styles used first, but in case that doesn't work, go ahead and use the algorithm. 
 
 | local | 
 |-------|
@@ -212,28 +232,37 @@ IMPORTANT: Do not use variants of `local('..HelveticaNeueDeskInterface-Regular')
 ## Fira - Firefox OS
 
 * @link http://mozilla.github.io/Fira/
+* @link https://github.com/mozilla/Fira/blob/master/fira.css
 
 ### Fira Sans
 
 | W    | local |
 |------|-------|
-| 100 | local('Fira Sans Hair'), |
-| 200 | local('Fira Sans UltraLight'), |
-| 300 | local('Fira Sans Light'), |
-| 400 | local('Fira Sans Regular'), |
-| 500 | local('Fira Sans Medium'), |
-| 600 | local('Fira Sans SemiBold'), |
-| 700 | local('Fira Sans Bold'), |
-| 800 | local('Fira Sans ExtraBold'), |
-| 900 | local('Fira Sans Heavy'), |
+| 100  | local('Fira Sans Hair'), local('FiraSans-Hair'), |
+| 100i | local('Fira Sans Hair Italic'), local('FiraSans-HairItalic'), |
+| 200  | local('Fira Sans UltraLight'), local('FiraSans-UltraLight'), |
+| 200i | local('Fira Sans UltraLight Italic'), local('FiraSans-UltraLightItalic'), |
+| 300  | local('Fira Sans Light'), local('FiraSans-Light'), |
+| 300i | local('Fira Sans Light Italic'), local('FiraSans-LightItalic'), |
+| 400  | local('Fira Sans Regular'), local('FiraSans-Regular'), |
+| 400i | local('Fira Sans Regular Italic'), local('FiraSans-Italic'), |
+| 500  | local('Fira Sans Medium'), local('FiraSans-Medium'), |
+| 500i | local('Fira Sans Medium Italic'), local('FiraSans-MediumItalic'), |
+| 600  | local('Fira Sans SemiBold'), local('FiraSans-SemiBold'), |
+| 600i | local('Fira Sans SemiBold Italic'), local('FiraSans-SemiBoldItalic'), |
+| 700  | local('Fira Sans Bold'), local('FiraSans-Bold'), |
+| 700i | local('Fira Sans Bold Italic'), local('FiraSans-BoldItalic'), |
+| 800  | local('Fira Sans ExtraBold'), local('FiraSans-ExtraBold'), |
+| 800i | local('Fira Sans ExtraBold Italic'), local('FiraSans-ExtraBoldItalic'), |
+| 900  | local('Fira Sans Heavy'), local('FiraSans-Heavy'), |
+| 900i | local('Fira Sans Heavy Italic'), local('FiraSans-HeavyItalic'), |
 
 ### Fira Mono
 
 | W | local |
 |---|-------|
-| 400 | local('Fira Mono Regular'), |
-| 500 | local('Fira Mono Medium'), |
-| 700 | local('Fira Mono Bold'), |
+| 400 | local('Fira Monod'), local('Fira Mono Regular'), local('FiraMono-Regular'), |
+| 700 | local('Fira Mono Bold'), local('FiraMono-Bold'), |
 
 ### Fira Serif?
 
