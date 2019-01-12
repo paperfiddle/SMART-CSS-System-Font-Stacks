@@ -20,6 +20,8 @@ Obtaining the correct typeface names has been a complete PITA, so I thought I'd 
 
 ## Apple Abstractions
 
+| local | 
+|-------|
 | local('system-ui'), |
 | local('-apple-system'), |
 | local('BlinkMacSystemFont'), |
@@ -42,6 +44,8 @@ Obtaining the correct typeface names has been a complete PITA, so I thought I'd 
 
 @link https://docs.microsoft.com/en-us/typography/font-list/arial
 
+| W    | local  |
+|------|--------|
 | 400  | local('Arial'), local('ArialMT'), |
 | 400i | local('Arial Italic'), local('Arial-ItalicMT') |
 | 700  | local('Arial Bold'), local('Arial-BoldMT'), |
@@ -51,37 +55,43 @@ Obtaining the correct typeface names has been a complete PITA, so I thought I'd 
 ### Arial Narrow
 
 @link https://docs.microsoft.com/en-us/typography/font-list/arial-narrow
- 
-| 400   | local('Arial Narrow'), |
-| 400i  | local('Arial Narrow Italic'), |
-| 700   | local('Arial Narrow Bold'), |
-| 700i  | local('Arial Narrow Bold Italic'), |
+
+| W    | local  |
+|------|--------| 
+| 400  | local('Arial Narrow'), |
+| 400i | local('Arial Narrow Italic'), |
+| 700  | local('Arial Narrow Bold'), |
+| 700i | local('Arial Narrow Bold Italic'), |
 
 ### Cantarell - GNOME
 
 @link
 
-| 100   |   |
-| 100i  |   |
-| 200   |   |
-| 200i  |   |
-| 300   |   |
-| 300i  |   |
-| 400   | local('Cantarell'), |
-| 400i  |   |
-| 500   |   |
-| 500i  |   |
-| 600   |   |
-| 600i  |   |
-| 700   |   |
-| 700i  |   |
-| 800   |   |
-| 800i  |   |
-| 900   |   |
-| 900i  |   |
+| W    | local  |
+|------|--------|
+| 100  |   |
+| 100i |   |
+| 200  |   |
+| 200i |   |
+| 300  |   |
+| 300i |   |
+| 400  | local('Cantarell'), |
+| 400i |   |
+| 500  |   |
+| 500i |   |
+| 600  |   |
+| 600i |   |
+| 700  |   |
+| 700i |   |
+| 800  |   |
+| 800i |   |
+| 900  |   |
+| 900i |   |
 
 ### Droid Sans - Android < 3.26 Honeycomb
 
+| W    | local  |
+|------|--------|
 | 400  | local('Droid Sans'), local('DroidSans'), |
 | 400i | local('Droid Sans Italic'), local('DroidSansItalic'), |
 | 700  | local('Droid Sans Bold'), local('DroidSans-Bold'), |
@@ -89,6 +99,8 @@ Obtaining the correct typeface names has been a complete PITA, so I thought I'd 
 
 ### !Helvetica - Mac
 
+| W    | local  |
+|------|--------|
 | 300  | local('Helvetica Light'), local('Helvetica-Light'), |
 | 300i | local('Helvetica Light Oblique'), local('Helvetica-LightOblique'), |
 | 400  | local('Helvetica'), local('Helvetica'), |
@@ -98,6 +110,8 @@ Obtaining the correct typeface names has been a complete PITA, so I thought I'd 
 
 ### Helvetica Neue - OS X 10.10 Yosemite +
 
+| W    | local  |
+|------|--------|
 | 100  | local('Helvetica Neue UltraLight'), local('HelveticaNeue-UltraLight'),  |
 | 100i | local('Helvetica Neue UltraLight Italic'), local('HelveticaNeue-UltraLightItalic'), |
 | 200  | local('Helvetica Neue Thin'), local('HelveticaNeue-Thin'), |
@@ -117,6 +131,8 @@ Obtaining the correct typeface names has been a complete PITA, so I thought I'd 
 
 @link http://mozilla.github.io/Fira/
 
+| W    | local  |
+|------|--------|
 | 100 | local('Fira Sans Hair'), |
 | 200 | local('Fira Sans UltraLight'), |
 | 300 | local('Fira Sans Light'), |
@@ -129,6 +145,8 @@ Obtaining the correct typeface names has been a complete PITA, so I thought I'd 
 
 ### Lucida Grande - OS X 10.9 Mavericks
 
+| W    | local  |
+|------|--------|
 | 400 | local('Lucida Grande'), |
 | 700 | local('Lucida Grande Bold'), |
 
@@ -137,11 +155,33 @@ Obtaining the correct typeface names has been a complete PITA, so I thought I'd 
 
 @link https://github.com/KDE/oxygen-fonts	
 
+| W    | local  |
+|------|--------|
+| 100   |   |
+| 100i  |   |
+| 200   |   |
+| 200i  |   |
+| 300   |   |
+| 300i  |   |
+| 400   |   |
+| 400i  |   |
+| 500   |   |
+| 500i  |   |
+| 600   |   |
+| 600i  |   |
+| 700   |   |
+| 700i  |   |
+| 800   |   |
+| 800i  |   |
+| 900   |   |
+| 900i  |   |
 
 ### Roboto - Android 4.0 Ice Cream Sandwich +
 
 @link https://google-webfonts-helper.herokuapp.com/fonts/roboto?subsets=latin
 
+| W    | local  |
+|------|--------|
 | 100  | local('Roboto Thin'), local('Roboto-Thin'), |
 | 100i | local('Roboto Thin Italic'), local('Roboto-ThinItalic'), |
 | 300  | local('Roboto Light'), local('Roboto-Light'), |
@@ -159,6 +199,8 @@ Obtaining the correct typeface names has been a complete PITA, so I thought I'd 
 
 Text
 
+| W    | local  |
+|------|--------|
 | 300  | local('SanFranciscoText-Light'), |
 | 300i | local('SanFranciscoText-LightItalic'), |
 | 400  | local('SanFranciscoText-Regular'), |
@@ -172,6 +214,8 @@ Text
 
 Display
 
+| W    | local  |
+|------|--------|
 | 100 | local('SanFranciscoDisplay-Ultralight'), |
 | 200 | local('SanFranciscoDisplay-Thin'), |
 | 300 | local('SanFranciscoDisplay-Light'), |
@@ -184,6 +228,8 @@ Display
 
 Rounded 
 
+| W    | local  |
+|------|--------|
 | 100 | local('SanFranciscoRounded-Ultralight') |
 | 100 | local('SanFranciscoRounded-Thin') | 
 | 100 | local('SanFranciscoRounded-Light') | 
@@ -198,6 +244,8 @@ Rounded
 
 @link https://docs.microsoft.com/en-us/typography/font-list/segoe-ui
 
+| W    | local  |
+|------|--------|
 | 100  | local('Segoe UI Light'), |
 | 100i | local('Segoe UI Light Italic'), |
 | 300  | local('Segoe UI Semilight'), |
@@ -215,6 +263,8 @@ Rounded
 
 @link https://docs.microsoft.com/en-us/typography/font-list/trebuchet-ms
 
+| W    | local  |
+|------|--------|
 | 400   | local('Trebuchet MS'), local('TrebuchetMS'), |
 | 400i  | local('Trebuchet MS Italic'), local('TrebuchetMS-Italic'), |
 | 700   | local('Trebuchet MS Bold'), local('TrebuchetMS-Bold'), |
@@ -224,6 +274,8 @@ Rounded
 
 @link
 
+| W    | local  |
+|------|--------|
 | 100   |   |
 | 100i  |   |
 | 200   |   |
@@ -247,10 +299,12 @@ Rounded
 
 @link https://docs.microsoft.com/en-us/typography/font-list/verdana
 
-| 400   | local('Verdana'), local('Verdana'), |
-| 400i  | local('Verdana Italic'), local('Verdana-Italic'), |
-| 700   | local('Verdana Bold'), local('Verdana-Bold'), |
-| 700i  | local('Verdana Bold Italic'), local('Verdana-BoldItalic'), |
+| W    | local  |
+|------|--------|
+| 400  | local('Verdana'), local('Verdana'), |
+| 400i | local('Verdana Italic'), local('Verdana-Italic'), |
+| 700  | local('Verdana Bold'), local('Verdana-Bold'), |
+| 700i | local('Verdana Bold Italic'), local('Verdana-BoldItalic'), |
 
 
 ## Serif
