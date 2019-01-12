@@ -226,14 +226,14 @@ Rounded
 | W   | local |
 |-----|-------|
 | 100 | local('SanFranciscoRounded-Ultralight') |
-| 100 | local('SanFranciscoRounded-Thin') | 
-| 100 | local('SanFranciscoRounded-Light') | 
-| 100 | local('SanFranciscoRounded-Regular') | 
-| 100 | local('SanFranciscoRounded-Medium') |
-| 100 | local('SanFranciscoRounded-Semibold') |
-| 100 | local('SanFranciscoRounded-Bold') | 
-| 100 | local('SanFranciscoRounded-Heavy') | 
-| 100 | local('SanFranciscoRounded-Black') | 
+| 200 | local('SanFranciscoRounded-Thin') | 
+| 300 | local('SanFranciscoRounded-Light') | 
+| 400 | local('SanFranciscoRounded-Regular') | 
+| 500 | local('SanFranciscoRounded-Medium') |
+| 600 | local('SanFranciscoRounded-Semibold') |
+| 700 | local('SanFranciscoRounded-Bold') | 
+| 800 | local('SanFranciscoRounded-Heavy') | 
+| 900 | local('SanFranciscoRounded-Black') | 
 
 ### Sergoe UI - Windows Vista +
 
