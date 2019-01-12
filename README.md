@@ -26,7 +26,7 @@ When creating a stack, order matters. This table shows the generally accepted or
 | Cantarell | GNOME ||
 | Tahoma | Windows XP | http://www.microsoft.com/typography/fonts/family.aspx?FID=19 |
 
-That said, you may need or want to backfill your stacks with some native fonts - I've included some at the end.
+That said, you may need or want to backfill your stacks with some native fonts. For example, Fira doesn't have a serif font. I've included some at the end.
 
 | OS | Resource |
 |----|----------|
@@ -42,8 +42,6 @@ That said, you may need or want to backfill your stacks with some native fonts -
 | Android 3.26 | |
 | Linux| |
 | GNOME | |
-
-
 
 ## Resources 
 
@@ -230,6 +228,8 @@ IMPORTANT: Do not use variants of `local('..HelveticaNeueDeskInterface-Regular')
 
 
 ## Fira - Firefox OS
+
+Not to be confused with the 'Fira' Google Font - which is an extended version of OS 'Fira', but downloads like any other webfornt and has different `local` names.
 
 * @link http://mozilla.github.io/Fira/
 * @link https://github.com/mozilla/Fira/blob/master/fira.css
