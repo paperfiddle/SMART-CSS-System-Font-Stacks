@@ -1,27 +1,62 @@
-# @font-face System Font Stack
+# @font-face System UI Font Stack
 
-I'm using system fonts in my theme's fallback styles - I may switch to them completely someday. As I was researching different approaches, I immeadiatly loved Jonathan Neal's method mentioned on [CSS Tricks](https://css-tricks.com/snippets/css/system-font-stack/) with the [repository here](https://github.com/jonathantneal/system-font-css/blob/gh-pages/system-font.css).
+I'm using system UI fonts in my theme's fallback styles - I may switch to them completely someday. As I was researching different approaches, I immeadiatly loved Jonathan Neal's method mentioned on [CSS Tricks](https://css-tricks.com/snippets/css/system-font-stack/) with the [repository here](https://github.com/jonathantneal/system-font-css/blob/gh-pages/system-font.css).
 
 In a nutshell, you use `@font-face` + local('Typface') to build your stacks. To do this, you must create an `@font-face` for every weight + style you need and you have to supply the correct typeface name. To understand why, [have a look at this CodePen](https://codepen.io/ljburton/pen/roQmGa?editors=1100).
 
 Obtaining the correct typeface names has been a complete PITA, so I thought I'd share :)
 
+## System UI Fonts
+
+These are the fonts used by operating systems - compared to a 'system' font which is any font installed with the OS. 
+
+When creating a stack, order matters. This table shows the generally accepted order and is how the rest of this page is structured. 
+
+| Family | OS |
+|--------|----|
+| San Francisco | OS X 10.11 El Capitan + |
+| Helvetic Neue | OS X 10.10 Yosemite + |
+| Lucida | OS X 10.9 Mavericks + |
+| Segoe UI | Windows Vista + |
+| Fira | Firefox OS |
+| Roboto | Android 4.0 Ice Cream Sandwich + |
+| Droid | Android 3.26 Honeycomb <= |
+| Oxygen | KDE Linux |
+| Umbutu | Umbutu |
+| Cantarell | GNOME |
+
 ## Resources 
 
 Generally helpful stuff I scraped from.
 
+* @link https://www.smashingmagazine.com/2015/11/using-system-ui-fonts-practical-guide/
 * @link https://support.apple.com/en-us/HT206872
 * @link https://github.com/lionhylra/iOS-UIFont-Names
 * @link http://iosfonts.com/
-* @link https://developer.apple.com/fonts/
 
 ## Apple Abstractions
 
+@link https://developer.apple.com/fonts/
+@link https://www.chromestatus.com/feature/5640395337760768
+
+These are generic names that render fonts using the device's system UI font. 
+
+* They don't cover all devices or browsers. 
+* If I understand correctly, these turn rendering over to algorithms that make decisions based on things like `font-size`. 
+* I'm guessing this accounts for sans vs serif vs mono, and bold + italics - even though I'm not aware of, say, San Francisco serif or mono. 
+* The beauty of using `@font-face` to make system UI stacks is that you're free to make choices like, say using San Francisco Medium vs Regular as your body font. 
+* While it's most common to see these listed first, I think they make more sense last - I want my specific styles used first, but in case that doesn't work, go ahead and use the algorithm. 
+
 | local | 
 |-------|
-| local('system-ui'), |
-| local('-apple-system'), |
-| local('BlinkMacSystemFont'), |
+| local('system-ui'), | Chrome, Safari, Firefox |
+| local('-apple-system'), | Safari on OS X |
+| local('BlinkMacSystemFont'), | Chrome on OS X |
+
+Other Abstractions
+
+| local | 
+|-------|
 | local('-apple-system-body'),|
 | local('-apple-system-headline'), |
 | local('-apple-system-subheadline'), |
@@ -37,9 +72,12 @@ Generally helpful stuff I scraped from.
 
 ## San Francisco - OS X 10.11 El Capitan + 
 
-Does SF have serif or mono?
-
 * @link https://developer.apple.com/fonts/
+* @link http://iosfonts.com/
+
+IMPORTANT: Do not use variants of `local('.SFNSText-Regular')` - Apple is working on how system fonts are abstracted and internal PostScript naming conventions are subject to change. 
+
+* @link https://www.smashingmagazine.com/2015/11/using-system-ui-fonts-practical-guide/
 
 ### SF Text (sans)
 
@@ -113,7 +151,16 @@ Does SF have serif or mono?
 | 800  |   |
 | 900  |   |
 
+### SF Serif ???
+
+### SF Mono ???
+
 ## Helvetica Neue - OS X 10.10 Yosemite +
+
+* @link
+* @link 
+
+IMPORTANT: Do not use variants of `local('..HelveticaNeueDeskInterface-Regular')` - Apple is working on how system fonts are abstracted and internal PostScript naming conventions are subject to change. 
 
 | W    | local |
 |------|-------|
@@ -132,7 +179,7 @@ Does SF have serif or mono?
 | 800  | local('Helvetica Neue Condensed Bold'), local('HelveticaNeue-CondensedBold'), |	
 | 900  | local('Helvetica Neue Condensed Black'), local('HelveticaNeue-CondensedBlack'), |
 
-## Lucida - OS X 10.9 Mavericks
+## Lucida - OS X 10.9 Mavericks + 
 
 ### Lucida Grande (sans)
 
@@ -141,11 +188,10 @@ Does SF have serif or mono?
 | 400 | local('Lucida Grande'), |
 | 700 | local('Lucida Grande Bold'), |
 
-## Segoe - Windows Vista +
+## Segoe UI - Windows Vista +
 
 * @link https://docs.microsoft.com/en-us/typography/font-list/segoe-ui
-
-### Segoe UI (sans)
+* @link https://en.wikipedia.org/wiki/Segoe
 
 | W    | local |
 |------|-------|
@@ -192,6 +238,8 @@ Does SF have serif or mono?
 ### Fira Serif?
 
 ## Roboto - Android 4.0 Ice Cream Sandwich +
+
+* @link https://material.io/design/typography/
 
 ### Roboto 
 
