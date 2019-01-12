@@ -41,7 +41,7 @@ Does SF have serif or mono?
 
 * @link https://developer.apple.com/fonts/
 
-**SF Text (sans)**
+### SF Text (sans)
 
 | W    | local |
 |------|-------|
@@ -56,7 +56,7 @@ Does SF have serif or mono?
 | 900  | local('SanFranciscoText-Heavy'), |
 | 900i | local('SanFranciscoText-HeavyItalic'), |
 
-**SF Display (sans)**
+### SF Display (sans)
 
 | W   | local |
 |-----|-------|
@@ -70,7 +70,7 @@ Does SF have serif or mono?
 | 800 | local('SanFranciscoDisplay-Heavy'), |
 | 900 | local('SanFranciscoDisplay-Black'), |
 
-**SF Rounded (sans)**
+### SF Rounded (sans)
 
 | W   | local |
 |-----|-------|
@@ -84,7 +84,7 @@ Does SF have serif or mono?
 | 800 | local('SanFranciscoRounded-Heavy') | 
 | 900 | local('SanFranciscoRounded-Black') | 
 
-**SF Compact Text (sans)**
+### SF Compact Text (sans)
 
 | W    | local |
 |------|-------|
@@ -134,7 +134,7 @@ Does SF have serif or mono?
 
 ## Lucida - OS X 10.9 Mavericks
 
-Lucida Grande (sans)
+### Lucida Grande (sans)
 
 | W    | local |
 |------|-------|
@@ -145,7 +145,7 @@ Lucida Grande (sans)
 
 * @link https://docs.microsoft.com/en-us/typography/font-list/segoe-ui
 
-Segoe UI (sans)
+### Segoe UI (sans)
 
 | W    | local |
 |------|-------|
@@ -167,7 +167,7 @@ Segoe UI (sans)
 
 * @link http://mozilla.github.io/Fira/
 
-Fira Sans
+### Fira Sans
 
 | W    | local |
 |------|-------|
@@ -181,7 +181,7 @@ Fira Sans
 | 800 | local('Fira Sans ExtraBold'), |
 | 900 | local('Fira Sans Heavy'), |
 
-Fira Mono
+### Fira Mono
 
 | W | local |
 |---|-------|
@@ -189,9 +189,11 @@ Fira Mono
 | 500 | local('Fira Mono Medium'), |
 | 700 | local('Fira Mono Bold'), |
 
+### Fira Serif?
+
 ## Roboto - Android 4.0 Ice Cream Sandwich +
 
-Roboto 
+### Roboto 
 
 * @link
 * @link https://google-webfonts-helper.herokuapp.com/fonts/roboto?subsets=latin
@@ -211,12 +213,12 @@ Roboto
 | 900  | local('Roboto Black'), local('Roboto-Black'), |
 | 900i | local('Roboto Black Italic'), local('Roboto-BlackItalic'), |
 
-Roboto Condensed (sans)
+### Roboto Condensed (sans)
 
 * @link
 * @link
 
-Roboto Slab (serif)
+### Roboto Slab (serif)
 
 * @link https://fonts.google.com/specimen/Roboto+Slab/
 * @link https://google-webfonts-helper.herokuapp.com/fonts/roboto-slab
@@ -228,7 +230,7 @@ Roboto Slab (serif)
 | 400 | local('Roboto Slab Regular'), local('RobotoSlab-Regular'), |
 | 700 | local('Roboto Slab Bold'), local('RobotoSlab-Bold'), |
 
-Roboto Mono (mono)
+### Roboto Mono (mono)
 
 * @link https://fonts.google.com/specimen/Roboto+Mono/
 * @link https://google-webfonts-helper.herokuapp.com/fonts/roboto-mono
@@ -251,7 +253,7 @@ Roboto Mono (mono)
 
 * @link 
 
-Droid Sans
+### Droid Sans
 
 | W    | local |
 |------|-------|
@@ -260,7 +262,7 @@ Droid Sans
 | 700  | local('Droid Sans Bold'), local('DroidSans-Bold'), |
 | 700i | local('Droid Sans Bold Italic'), local('DroidSans-BoldItalic'), |
 
-Droid Serif 
+### Droid Serif 
 
 | W | local |
 |---|-------|
@@ -269,7 +271,7 @@ Droid Serif
 | 700  | local('Droid Serif Bold'), local('DroidSerif-Bold'), |
 | 700i | local('Droid Serif Bold Italic'), local('DroidSerif-BoldItalic'), |
 
-Droid Sans Mono
+### Droid Sans Mono
 
 | W | local |
 |---|-------|
@@ -282,7 +284,7 @@ Droid Sans Mono
 
 * @link https://github.com/KDE/oxygen-fonts	
 
-Oxygen Sans
+### Oxygen Sans
 
 | W    | local |
 |------|-------|
@@ -309,7 +311,7 @@ Oxygen Sans
 
 * @link https://design.ubuntu.com/font/
 
-Umbutu (sans)
+### Umbutu (sans)
 
 * @link https://fonts.google.com/?query=Ubuntu
 * @link https://google-webfonts-helper.herokuapp.com/fonts/ubuntu?subsets=latin
@@ -325,7 +327,7 @@ Umbutu (sans)
 | 700  | local('Ubuntu Bold'), local('Ubuntu-Bold'), |
 | 700i | local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'), |
 
-Ubuntu Condensed (serif)
+### Ubuntu Condensed (serif)
 
 * @link https://fonts.google.com/specimen/Ubuntu+Condensed
 * @link https://google-webfonts-helper.herokuapp.com/fonts/ubuntu-condensed
@@ -334,7 +336,7 @@ Ubuntu Condensed (serif)
 |------|-------|
 | 400  | local('Ubuntu Condensed'), local('UbuntuCondensed-Regular'),|
 
-Ubuntu Mono
+### Ubuntu Mono
 
 * @link https://fonts.google.com/specimen/Ubuntu+Mono
 * @link https://google-webfonts-helper.herokuapp.com/fonts/ubuntu-mono
