@@ -351,7 +351,7 @@ Rounded
 
 | W | local |
 |---|-------|
-| 400  |   |
+| 400  | local('Droid Sans Mono'), local('DroidSansMono'), |
 | 400i |   |
 | 700  |   |
 | 700i |   |
@@ -363,6 +363,17 @@ Rounded
 | 400 | local('Fira Mono Regular'), |
 | 500 | local('Fira Mono Medium'), |
 | 700 | local('Fira Mono Bold'), |
+
+Consolas, 
+"Andale Mono WT", 
+"Andale Mono", 
+"Lucida Console", 
+"Lucida Sans Typewriter", 
+"DejaVu Sans Mono", 
+"Bitstream Vera Sans Mono", 
+"Liberation Mono", 
+"Nimbus Mono L", 
+Monaco, 
 
 ## Emoji 
 

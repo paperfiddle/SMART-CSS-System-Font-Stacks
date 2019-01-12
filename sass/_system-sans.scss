@@ -1,0 +1,177 @@
+//
+// @file /sass/_system-sans.scss
+//
+
+
+//
+// 100 + 100i
+//
+
+@font-face {
+	font-family: 'System Sans 100';
+	font-style: normal;
+	font-weight: 100;
+	font-stretch: normal;
+	src: local('San Francisco'),
+		local('Helvetica Neue'),
+		local('Lucida Grande'),
+		local('Segoe UI'),
+		local('Roboto'),		
+		local('Droid Sans'),
+		local('Oxygen-Sans'),
+		local('Ubuntu'),
+		local('Cantarell'),			
+		local(sans-serif); // or die
+}
+
+@font-face {
+	font-family: 'System Sans 100i';
+	font-style: italic;
+	font-weight: 100;
+	font-stretch: normal;
+}
+
+//
+// 200 + 200i
+//
+
+@font-face {
+	font-family: 'System Sans 200';
+	font-style: italic;
+	font-weight: 200;
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: 'System Sans 200i';
+	font-style: italic;
+	font-weight: 200;
+	font-stretch: normal;
+}
+
+//
+// 300 + 300i
+//
+
+@font-face {
+	font-family: 'System Sans 300';
+	font-style: normal;
+	font-weight: 300;
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: 'System Sans 300i';
+	font-style: italic;
+	font-weight: 300;
+	font-stretch: normal;
+}
+
+//
+// 400 + 400i
+//
+
+@font-face {
+	font-family: 'System Sans 400';
+	font-style: normal;
+	font-weight: 400;
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: 'System Sans 400i';
+	font-style: italic;
+	font-weight: 400;
+	font-stretch: normal;
+}
+
+//
+// 500 + 500i
+//
+
+@font-face {
+	font-family: 'System Sans 500';
+	font-style: normal;
+	font-weight: 500;
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: 'System Sans 500i';
+	font-style: italic;
+	font-weight: 500;
+	font-stretch: normal;
+}
+
+//
+// 600 + 600i
+//
+
+@font-face {
+	font-family: 'System Sans 600';
+	font-style: normal;
+	font-weight: 600;
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: 'System Sans 600i';
+	font-style: italic;
+	font-weight: 600;
+	font-stretch: normal;
+}
+
+//
+// 700 + 700i
+//
+
+@font-face {
+	font-family: 'System Sans 700';
+	font-style: normal;
+	font-weight: 700;
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: 'System Sans 700i';
+	font-style: italic;
+	font-weight: 700;
+	font-stretch: normal;
+}
+
+//
+// 800 + 800i
+//
+
+@font-face {
+	font-family: 'System Sans 800';
+	font-style: normal;
+	font-weight: 800;
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: 'System Sans 800i';
+	font-style: italic;
+	font-weight: 800;
+	font-stretch: normal;
+}
+
+//
+// 900 + 900i
+//
+
+@font-face {
+	font-family: 'System Sans 900';
+	font-style: normal;
+	font-weight: 900;
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: 'System Sans 900i';
+	font-style: italic;
+	font-weight: 900;
+	font-stretch: normal;
+}
+

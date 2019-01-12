@@ -1,0 +1,22 @@
+//
+// @file /sass/_system-mono.scs
+//
+
+
+@font-face {
+	font-family: 'System Mono';
+	font-style: normal;
+	font-weight: normal;
+	src: local(''),
+		local(''),
+		local(''),
+		local(''),	
+		local(''),		
+		local(''),	
+		local('Fira Mono'), ('Fira Mono Regular'), 
+		local('Droid Sans Mono'), local('DroidSansMono'),
+		local('Oxygen Mono'), local('OxygenMono-Regular'), local(oxygen_monoregular),
+		local(monospace); // or die	
+}
+
+ 
