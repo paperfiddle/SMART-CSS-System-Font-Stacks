@@ -1,8 +1,5 @@
 # font-face-system-stack
 
-## Not Just Another System Font Stack
-
-
 I'm using system fonts in my theme's fallback styles - I may switch to them completely someday. As I was researching different approaches, I immeadiatly loved Jonathan Neal's method mentioned on [CSS Tricks](https://css-tricks.com/snippets/css/system-font-stack/) with the [repository here](https://github.com/jonathantneal/system-font-css/blob/gh-pages/system-font.css).
 
 In a nutshell, you use `@font-face` + local('Typface') to build your stacks. To do this, you must create an `@font-face` for every weight + style you need and you have to supply the correct typeface name. To understand why, [have a look at this CodePen](https://codepen.io/ljburton/pen/roQmGa?editors=1100).
@@ -44,8 +41,8 @@ Obtaining the correct typeface names has been a complete PITA, so I thought I'd 
 
 @link https://docs.microsoft.com/en-us/typography/font-list/arial
 
-| W    | local  |
-|------|--------|
+| W    | local |
+|------|-------|
 | 400  | local('Arial'), local('ArialMT'), |
 | 400i | local('Arial Italic'), local('Arial-ItalicMT') |
 | 700  | local('Arial Bold'), local('Arial-BoldMT'), |
@@ -56,8 +53,8 @@ Obtaining the correct typeface names has been a complete PITA, so I thought I'd 
 
 @link https://docs.microsoft.com/en-us/typography/font-list/arial-narrow
 
-| W    | local  |
-|------|--------| 
+| W    | local |
+|------|-------| 
 | 400  | local('Arial Narrow'), |
 | 400i | local('Arial Narrow Italic'), |
 | 700  | local('Arial Narrow Bold'), |
@@ -67,8 +64,8 @@ Obtaining the correct typeface names has been a complete PITA, so I thought I'd 
 
 @link
 
-| W    | local  |
-|------|--------|
+| W    | local |
+|------|-------|
 | 100  |   |
 | 100i |   |
 | 200  |   |
@@ -90,8 +87,8 @@ Obtaining the correct typeface names has been a complete PITA, so I thought I'd 
 
 ### Droid Sans - Android < 3.26 Honeycomb
 
-| W    | local  |
-|------|--------|
+| W    | local |
+|------|-------|
 | 400  | local('Droid Sans'), local('DroidSans'), |
 | 400i | local('Droid Sans Italic'), local('DroidSansItalic'), |
 | 700  | local('Droid Sans Bold'), local('DroidSans-Bold'), |
@@ -99,8 +96,8 @@ Obtaining the correct typeface names has been a complete PITA, so I thought I'd 
 
 ### !Helvetica - Mac
 
-| W    | local  |
-|------|--------|
+| W    | local |
+|------|-------|
 | 300  | local('Helvetica Light'), local('Helvetica-Light'), |
 | 300i | local('Helvetica Light Oblique'), local('Helvetica-LightOblique'), |
 | 400  | local('Helvetica'), local('Helvetica'), |
@@ -110,8 +107,8 @@ Obtaining the correct typeface names has been a complete PITA, so I thought I'd 
 
 ### Helvetica Neue - OS X 10.10 Yosemite +
 
-| W    | local  |
-|------|--------|
+| W    | local |
+|------|-------|
 | 100  | local('Helvetica Neue UltraLight'), local('HelveticaNeue-UltraLight'),  |
 | 100i | local('Helvetica Neue UltraLight Italic'), local('HelveticaNeue-UltraLightItalic'), |
 | 200  | local('Helvetica Neue Thin'), local('HelveticaNeue-Thin'), |
@@ -131,8 +128,8 @@ Obtaining the correct typeface names has been a complete PITA, so I thought I'd 
 
 @link http://mozilla.github.io/Fira/
 
-| W    | local  |
-|------|--------|
+| W    | local |
+|------|-------|
 | 100 | local('Fira Sans Hair'), |
 | 200 | local('Fira Sans UltraLight'), |
 | 300 | local('Fira Sans Light'), |
@@ -145,8 +142,8 @@ Obtaining the correct typeface names has been a complete PITA, so I thought I'd 
 
 ### Lucida Grande - OS X 10.9 Mavericks
 
-| W    | local  |
-|------|--------|
+| W    | local |
+|------|-------|
 | 400 | local('Lucida Grande'), |
 | 700 | local('Lucida Grande Bold'), |
 
@@ -155,33 +152,33 @@ Obtaining the correct typeface names has been a complete PITA, so I thought I'd 
 
 @link https://github.com/KDE/oxygen-fonts	
 
-| W    | local  |
-|------|--------|
-| 100   |   |
-| 100i  |   |
-| 200   |   |
-| 200i  |   |
-| 300   |   |
-| 300i  |   |
-| 400   |   |
-| 400i  |   |
-| 500   |   |
-| 500i  |   |
-| 600   |   |
-| 600i  |   |
-| 700   |   |
-| 700i  |   |
-| 800   |   |
-| 800i  |   |
-| 900   |   |
-| 900i  |   |
+| W    | local |
+|------|-------|
+| 100  |   |
+| 100i |   |
+| 200  |   |
+| 200i |   |
+| 300  |   |
+| 300i |   |
+| 400  |   |
+| 400i |   |
+| 500  |   |
+| 500i |   |
+| 600  |   |
+| 600i |   |
+| 700  |   |
+| 700i |   |
+| 800  |   |
+| 800i |   |
+| 900  |   |
+| 900i |   |
 
 ### Roboto - Android 4.0 Ice Cream Sandwich +
 
 @link https://google-webfonts-helper.herokuapp.com/fonts/roboto?subsets=latin
 
-| W    | local  |
-|------|--------|
+| W    | local |
+|------|-------|
 | 100  | local('Roboto Thin'), local('Roboto-Thin'), |
 | 100i | local('Roboto Thin Italic'), local('Roboto-ThinItalic'), |
 | 300  | local('Roboto Light'), local('Roboto-Light'), |
@@ -199,8 +196,8 @@ Obtaining the correct typeface names has been a complete PITA, so I thought I'd 
 
 Text
 
-| W    | local  |
-|------|--------|
+| W    | local |
+|------|-------|
 | 300  | local('SanFranciscoText-Light'), |
 | 300i | local('SanFranciscoText-LightItalic'), |
 | 400  | local('SanFranciscoText-Regular'), |
@@ -214,8 +211,8 @@ Text
 
 Display
 
-| W    | local  |
-|------|--------|
+| W   | local |
+|-----|-------|
 | 100 | local('SanFranciscoDisplay-Ultralight'), |
 | 200 | local('SanFranciscoDisplay-Thin'), |
 | 300 | local('SanFranciscoDisplay-Light'), |
@@ -228,8 +225,8 @@ Display
 
 Rounded 
 
-| W    | local  |
-|------|--------|
+| W   | local |
+|-----|-------|
 | 100 | local('SanFranciscoRounded-Ultralight') |
 | 100 | local('SanFranciscoRounded-Thin') | 
 | 100 | local('SanFranciscoRounded-Light') | 
@@ -244,8 +241,8 @@ Rounded
 
 @link https://docs.microsoft.com/en-us/typography/font-list/segoe-ui
 
-| W    | local  |
-|------|--------|
+| W    | local |
+|------|-------|
 | 100  | local('Segoe UI Light'), |
 | 100i | local('Segoe UI Light Italic'), |
 | 300  | local('Segoe UI Semilight'), |
@@ -263,44 +260,44 @@ Rounded
 
 @link https://docs.microsoft.com/en-us/typography/font-list/trebuchet-ms
 
-| W    | local  |
-|------|--------|
-| 400   | local('Trebuchet MS'), local('TrebuchetMS'), |
-| 400i  | local('Trebuchet MS Italic'), local('TrebuchetMS-Italic'), |
-| 700   | local('Trebuchet MS Bold'), local('TrebuchetMS-Bold'), |
-| 700i  | local('Trebuchet MS Bold Italic'), local('Trebuchet-BoldItalic'), |
+| W    | local |
+|------|-------|
+| 400  | local('Trebuchet MS'), local('TrebuchetMS'), |
+| 400i | local('Trebuchet MS Italic'), local('TrebuchetMS-Italic'), |
+| 700  | local('Trebuchet MS Bold'), local('TrebuchetMS-Bold'), |
+| 700i | local('Trebuchet MS Bold Italic'), local('Trebuchet-BoldItalic'), |
 
 ### Ubuntu
 
 @link
 
-| W    | local  |
-|------|--------|
-| 100   |   |
-| 100i  |   |
-| 200   |   |
-| 200i  |   |
-| 300   | local('Ubuntu Light'), |
-| 300i  |   |
-| 400   | local('Ubuntu'), |
-| 400i  |   |
-| 500   |   |
-| 500i  |   |
-| 600   |   |
-| 600i  |   |
-| 700   |   |
-| 700i  |   |
-| 800   |   |
-| 800i  |   |
-| 900   |   |
-| 900i  |   |
+| W    | local |
+|------|-------|
+| 100  |   |
+| 100i |   |
+| 200  |   |
+| 200i |   |
+| 300  | local('Ubuntu Light'), |
+| 300i |   |
+| 400  | local('Ubuntu'), |
+| 400i |   |
+| 500  |   |
+| 500i |   |
+| 600  |   |
+| 600i |   |
+| 700  |   |
+| 700i |   |
+| 800  |   |
+| 800i |   |
+| 900  |   |
+| 900i |   |
 
 ### Verdana
 
 @link https://docs.microsoft.com/en-us/typography/font-list/verdana
 
-| W    | local  |
-|------|--------|
+| W    | local |
+|------|-------|
 | 400  | local('Verdana'), local('Verdana'), |
 | 400i | local('Verdana Italic'), local('Verdana-Italic'), |
 | 700  | local('Verdana Bold'), local('Verdana-Bold'), |
