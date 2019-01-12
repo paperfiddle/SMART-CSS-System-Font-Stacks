@@ -35,13 +35,13 @@ Generally helpful stuff I scraped from.
 | local('-apple-system-short-footnote'), |
 | local('-apple-system-tall-body'), |
 
-## !San Francisco - OS X 10.11 El Capitan + 
+## San Francisco - OS X 10.11 El Capitan + 
 
 Does SF have serif or mono?
 
 * @link https://developer.apple.com/fonts/
 
-SF Text (sans)
+**SF Text (sans)**
 
 | W    | local |
 |------|-------|
@@ -56,7 +56,7 @@ SF Text (sans)
 | 900  | local('SanFranciscoText-Heavy'), |
 | 900i | local('SanFranciscoText-HeavyItalic'), |
 
-SF Display (sans)
+**SF Display (sans)**
 
 | W   | local |
 |-----|-------|
@@ -70,7 +70,7 @@ SF Display (sans)
 | 800 | local('SanFranciscoDisplay-Heavy'), |
 | 900 | local('SanFranciscoDisplay-Black'), |
 
-SF Rounded (sans)
+**SF Rounded (sans)**
 
 | W   | local |
 |-----|-------|
@@ -84,7 +84,7 @@ SF Rounded (sans)
 | 800 | local('SanFranciscoRounded-Heavy') | 
 | 900 | local('SanFranciscoRounded-Black') | 
 
-SF Compact Text (sans)
+**SF Compact Text (sans)**
 
 | W    | local |
 |------|-------|
@@ -99,7 +99,7 @@ SF Compact Text (sans)
 | 900  |   |
 | 900i |   |
 
-SF Compact Dispaly (sans)
+### SF Compact Dispaly (sans)
 
 | W    | local |
 |------|-------|
