@@ -1,12 +1,10 @@
-# font-face-system-stack
+# @font-face System Font Stack
 
 I'm using system fonts in my theme's fallback styles - I may switch to them completely someday. As I was researching different approaches, I immeadiatly loved Jonathan Neal's method mentioned on [CSS Tricks](https://css-tricks.com/snippets/css/system-font-stack/) with the [repository here](https://github.com/jonathantneal/system-font-css/blob/gh-pages/system-font.css).
 
 In a nutshell, you use `@font-face` + local('Typface') to build your stacks. To do this, you must create an `@font-face` for every weight + style you need and you have to supply the correct typeface name. To understand why, [have a look at this CodePen](https://codepen.io/ljburton/pen/roQmGa?editors=1100).
 
 Obtaining the correct typeface names has been a complete PITA, so I thought I'd share :)
-
-
 
 ## Resources 
 
@@ -85,7 +83,7 @@ Obtaining the correct typeface names has been a complete PITA, so I thought I'd 
 | 900  |   |
 | 900i |   |
 
-### Droid Sans - Android < 3.26 Honeycomb
+### Droid Sans - Android 3.26 Honeycomb <= 
 
 | W    | local |
 |------|-------|
@@ -306,8 +304,93 @@ Rounded
 
 ## Serif
 
+### Droid Serif - Android 3.26 Honeycomb <= 
+
+@link 
+
+| W | local |
+|---|-------|
+| 400  | local('Droid Serif'), local('DroidSerif'), |
+| 400i | local('Droid Serif Italic'), local('DroidSerif-Italic'), |
+| 700  | local('Droid Serif Bold'), local('DroidSerif-Bold'), |
+| 700i | local('Droid Serif Bold Italic'), local('DroidSerif-BoldItalic'), |
+
+### !Georgia - Windows + Mac
+
+@link
+
+| W | local |
+|---|-------|
+| 400   | local('Georgia'),  |
+| 400i  | local('Georgia Italic'), local('Georgia-Italic'), |
+| 700   | local('Georgia Bold') local('Georgia-Bold'), |
+| 700i  | local('Georgia Bold Italic') local('Georgia-BoldItalic'), |
+
 
 ## Monospace
 
+### Courier
+
+| W | local |
+|---|-------|
+| 400  | local('Courier'), local('Courier'), |
+| 400i | local('Courier Oblique'), local('Courier-Oblique'), |
+| 700  | local('Courier Bold '), local('Courier-Bold'), |
+| 700i | local('Courier Bold Oblique'), local('Courier-BoldOblique'), |
+
+### Courier New
+
+| W | local |
+|---|-------|
+| 400  | local('Courier New'), local('CourierNewPSMT), |
+| 400i | local('Courier New Italic'), local('CourierNewPS-ItalicMT), |
+| 700  | local('Courier New Bold'), local('CourierNewPS-BoldMT), |
+| 700i | local('Courier New Bold Italic'), local('CourierNewPS-BoldItalicMT), |
+
+### Droid Sans Mono
+
+| W | local |
+|---|-------|
+| 400  |   |
+| 400i |   |
+| 700  |   |
+| 700i |   |
+
+### Fira Mono - Firefox OS
+
+| W | local |
+|---|-------|
+| 400 | local('Fira Mono Regular'), |
+| 500 | local('Fira Mono Medium'), |
+| 700 | local('Fira Mono Bold'), |
 
 ## Emoji 
+
+| local |
+|-------|
+| local('Apple Color Emoji'),|
+| local('Segoe UI Emoji'),|
+| local('Segoe UI Symbol'),|
+| |
+
+
+| W | local |
+|---|-------|
+| 100  |   |
+| 100i |   |
+| 200  |   |
+| 200i |   |
+| 300  |   |
+| 300i |   |
+| 400  |   |
+| 400i |   |
+| 500  |   |
+| 500i |   |
+| 600  |   |
+| 600i |   |
+| 700  |   |
+| 700i |   |
+| 800  |   |
+| 800i |   |
+| 900  |   |
+| 900i |   |
