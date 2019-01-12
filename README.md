@@ -257,14 +257,14 @@ Not to be confused with the 'Fira' Google Font - which is an extended version of
 | 900  | local('Fira Sans Heavy'), local('FiraSans-Heavy'), |
 | 900i | local('Fira Sans Heavy Italic'), local('FiraSans-HeavyItalic'), |
 
+### Fira Serif - No such thing 
+
 ### Fira Mono
 
 | W | local |
 |---|-------|
 | 400 | local('Fira Monod'), local('Fira Mono Regular'), local('FiraMono-Regular'), |
 | 700 | local('Fira Mono Bold'), local('FiraMono-Bold'), |
-
-### Fira Serif?
 
 ## Roboto - Android 4.0 Ice Cream Sandwich +
 
