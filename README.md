@@ -8,10 +8,12 @@ Obtaining the correct typeface names has been a complete PITA, so I thought I'd 
 
 ## Resources 
 
-@link https://support.apple.com/en-us/HT206872
-@link https://github.com/lionhylra/iOS-UIFont-Names
-@link http://iosfonts.com/
-@link https://developer.apple.com/fonts/
+Generally helpful stuff I scraped from.
+
+* @link https://support.apple.com/en-us/HT206872
+* @link https://github.com/lionhylra/iOS-UIFont-Names
+* @link http://iosfonts.com/
+* @link https://developer.apple.com/fonts/
 
 ## Apple Abstractions
 
@@ -37,7 +39,7 @@ Obtaining the correct typeface names has been a complete PITA, so I thought I'd 
 
 ### !Arial
 
-@link https://docs.microsoft.com/en-us/typography/font-list/arial
+* @link https://docs.microsoft.com/en-us/typography/font-list/arial
 
 | W    | local |
 |------|-------|
@@ -49,7 +51,7 @@ Obtaining the correct typeface names has been a complete PITA, so I thought I'd 
 
 ### Arial Narrow
 
-@link https://docs.microsoft.com/en-us/typography/font-list/arial-narrow
+* @link https://docs.microsoft.com/en-us/typography/font-list/arial-narrow
 
 | W    | local |
 |------|-------| 
@@ -124,7 +126,7 @@ Obtaining the correct typeface names has been a complete PITA, so I thought I'd 
 
 ### Fira Sans - Firefox OS
 
-@link http://mozilla.github.io/Fira/
+* @link http://mozilla.github.io/Fira/
 
 | W    | local |
 |------|-------|
@@ -148,7 +150,7 @@ Obtaining the correct typeface names has been a complete PITA, so I thought I'd 
 	
 ### Oxygen-Sans - KDE Linux
 
-@link https://github.com/KDE/oxygen-fonts	
+* @link https://github.com/KDE/oxygen-fonts	
 
 | W    | local |
 |------|-------|
@@ -173,7 +175,7 @@ Obtaining the correct typeface names has been a complete PITA, so I thought I'd 
 
 ### Roboto - Android 4.0 Ice Cream Sandwich +
 
-@link https://google-webfonts-helper.herokuapp.com/fonts/roboto?subsets=latin
+* @link https://google-webfonts-helper.herokuapp.com/fonts/roboto?subsets=latin
 
 | W    | local |
 |------|-------|
@@ -190,7 +192,9 @@ Obtaining the correct typeface names has been a complete PITA, so I thought I'd 
 | 900  | local('Roboto Black'), local('Roboto-Black'), |
 | 900i | local('Roboto Black Italic'), local('Roboto-BlackItalic'), |
 
-### !San Francisco OS X 10.11 El Capitan + 
+### !San Francisco - OS X 10.11 El Capitan + 
+
+* @link https://developer.apple.com/fonts/
 
 Text
 
@@ -235,9 +239,60 @@ Rounded
 | 800 | local('SanFranciscoRounded-Heavy') | 
 | 900 | local('SanFranciscoRounded-Black') | 
 
+### San Francisco Compact - - OS X 10.11 El Capitan + 
+
+
+
+Text
+
+| W    | local |
+|------|-------|
+| 100  |   |
+| 100i |   |
+| 200  |   |
+| 200i |   |
+| 300  |   |
+| 300i |   |
+| 400  |   |
+| 400i |   |
+| 500  |   |
+| 500i |   |
+| 600  |   |
+| 600i |   |
+| 700  |   |
+| 700i |   |
+| 800  |   |
+| 800i |   |
+| 900  |   |
+| 900i |   |
+
+Dispaly
+
+| W    | local |
+|------|-------|
+| 100  |   |
+| 100i |   |
+| 200  |   |
+| 200i |   |
+| 300  |   |
+| 300i |   |
+| 400  |   |
+| 400i |   |
+| 500  |   |
+| 500i |   |
+| 600  |   |
+| 600i |   |
+| 700  |   |
+| 700i |   |
+| 800  |   |
+| 800i |   |
+| 900  |   |
+| 900i |   |
+
+
 ### Sergoe UI - Windows Vista +
 
-@link https://docs.microsoft.com/en-us/typography/font-list/segoe-ui
+* @link https://docs.microsoft.com/en-us/typography/font-list/segoe-ui
 
 | W    | local |
 |------|-------|
@@ -256,7 +311,7 @@ Rounded
 
 ### Trebuchet MS
 
-@link https://docs.microsoft.com/en-us/typography/font-list/trebuchet-ms
+* @link https://docs.microsoft.com/en-us/typography/font-list/trebuchet-ms
 
 | W    | local |
 |------|-------|
@@ -267,32 +322,24 @@ Rounded
 
 ### Ubuntu
 
-@link
+* @link https://design.ubuntu.com/font/
+* @link https://fonts.google.com/?query=Ubuntu
+* @link https://google-webfonts-helper.herokuapp.com/fonts/ubuntu?subsets=latin
 
 | W    | local |
 |------|-------|
-| 100  |   |
-| 100i |   |
-| 200  |   |
-| 200i |   |
-| 300  | local('Ubuntu Light'), |
-| 300i |   |
-| 400  | local('Ubuntu'), |
-| 400i |   |
-| 500  |   |
-| 500i |   |
-| 600  |   |
-| 600i |   |
-| 700  |   |
-| 700i |   |
-| 800  |   |
-| 800i |   |
-| 900  |   |
-| 900i |   |
+| 300  | local('Ubuntu Light'), local('Ubuntu-Light'), |
+| 300i | local('Ubuntu Light Italic'), local('Ubuntu-LightItalic'), |
+| 400  | local('Ubuntu Regular'), local('Ubuntu-Regular'), |
+| 400i | local('Ubuntu Italic'), local('Ubuntu-Italic'), |
+| 500  | local('Ubuntu Medium'), local('Ubuntu-Medium'), |
+| 500i | local('Ubuntu Medium Italic'), local('Ubuntu-MediumItalic'), |
+| 700  | local('Ubuntu Bold'), local('Ubuntu-Bold'), |
+| 700i | local('Ubuntu Bold Italic'), local('Ubuntu-BoldItalic'), |
 
 ### Verdana
 
-@link https://docs.microsoft.com/en-us/typography/font-list/verdana
+* @link https://docs.microsoft.com/en-us/typography/font-list/verdana
 
 | W    | local |
 |------|-------|
@@ -326,6 +373,16 @@ Rounded
 | 700   | local('Georgia Bold') local('Georgia-Bold'), |
 | 700i  | local('Georgia Bold Italic') local('Georgia-BoldItalic'), |
 
+
+### Ubuntu Condensed
+
+* @link https://design.ubuntu.com/font/
+* @link https://fonts.google.com/specimen/Ubuntu+Condensed
+* @link https://google-webfonts-helper.herokuapp.com/fonts/ubuntu-condensed
+
+| W    | local |
+|------|-------|
+| 400  | local('Ubuntu Condensed'), local('UbuntuCondensed-Regular'),|
 
 ## Monospace
 
@@ -364,15 +421,30 @@ Rounded
 | 500 | local('Fira Mono Medium'), |
 | 700 | local('Fira Mono Bold'), |
 
+### Ubuntu Mono
+
+* @link https://design.ubuntu.com/font/
+* @link https://fonts.google.com/specimen/Ubuntu+Mono
+* @link https://google-webfonts-helper.herokuapp.com/fonts/ubuntu-mono
+
+| W    | local |
+|------|-------|
+| 400  | local('Ubuntu Mono'), local('UbuntuMono-Regular'), |
+| 400i | local('Ubuntu Mono Italic'), local('UbuntuMono-Italic'), |
+| 700  | local('Ubuntu Mono Bold'), local('UbuntuMono-Bold'), |
+| 700i | local('Ubuntu Mono Bold Italic'), local('UbuntuMono-BoldItalic'), |
+
+
+
 Consolas, 
-"Andale Mono WT", 
-"Andale Mono", 
-"Lucida Console", 
-"Lucida Sans Typewriter", 
-"DejaVu Sans Mono", 
-"Bitstream Vera Sans Mono", 
-"Liberation Mono", 
-"Nimbus Mono L", 
+'Andale Mono WT', 
+'Andale Mono', 
+'Lucida Console', 
+'Lucida Sans Typewriter', 
+'DejaVu Sans Mono', 
+'Bitstream Vera Sans Mono', 
+'Liberation Mono', 
+'Nimbus Mono L', 
 Monaco, 
 
 ## Emoji 
