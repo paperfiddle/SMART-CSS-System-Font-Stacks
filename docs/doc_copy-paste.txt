@@ -1,0 +1,40 @@
+//
+// @file /docs/doc_copy-paste.tex
+//
+
+| OS | Resource |
+|----|----------|
+| macOS 10.12 Sierra | |
+| OS X 10.11 El Capitan | |
+| OS X 10.10 Yosemite + | |
+| OS X 10.9 Mavericks + | |
+| iOS 9 | | |
+| iOS 8| | |
+| iOS 7| | |
+| Windows 10 | |
+| Windows 7 |  |
+| Windows Vista |  |
+| Android | |
+| Ubuntu | | |
+
+
+| W | local |
+|---|-------|
+| 100  |   |
+| 100i |   |
+| 200  |   |
+| 200i |   |
+| 300  |   |
+| 300i |   |
+| 400  |   |
+| 400i |   |
+| 500  |   |
+| 500i |   |
+| 600  |   |
+| 600i |   |
+| 700  |   |
+| 700i |   |
+| 800  |   |
+| 800i |   |
+| 900  |   |
+| 900i |   |
