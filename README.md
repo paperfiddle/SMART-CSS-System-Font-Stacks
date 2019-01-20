@@ -11,6 +11,8 @@ This project is about font stacks for rendering HTML in a web browser and includ
 * Websafe fonts - the fonts found on most devices.
 * Default browser fonts - the generic `serif`, `sans-serif`, and `monospace` families. 
 
+It's important to note that I'm focused on fonts with Latin glyphs - if your site is being translated, you'll have additional considerations. 
+
 ## The Method
 
 As I was researching different approaches for building system font stacks, I immeadiatly loved Jonathan Neal's method mentioned on [CSS Tricks](https://css-tricks.com/snippets/css/system-font-stack/) with the [repository here](https://github.com/jonathantneal/system-font-css/blob/gh-pages/system-font.css).
