@@ -1,3 +1,65 @@
+
+* @link https://onlinefontconverter.com/
+* @link https://github.com/AppleDesignResources/SanFranciscoFont
+* @link https://gist.github.com/AndrewBarba/2c0f6612ceef30f5f55d
+
+
+
+Apple's San Francisco font is a mega family serving the full range of newer Apple operating sytems. There's branches like Display, Text, Pro, Compact ...
+
+It's confusing at best - and I've spent a week solid trying to sort it out. 
+
+Apple is also abstracting how system fonts are implemented. In CSS, the abstraction looks something like this: 
+
+	.class {
+		font-family: '-apple-system';
+		font-weight: 500;
+		font-style: italic;
+		font-size: 22px;
+	}
+
+`-apple-system` invokes the San Francisoco, Helvetica Neue, Lucidia Grande statck. It uses the correct font for the OS and it uses the font properties to select a varient. 
+
+The trouble is, I don't know what the code above will render ... Say I know it's macOS ... The documentation says SF Display is used for 19px and up ... But SF Display doesn't have italics ... Luckily I'm not also designing for watchOS ... but it's frustrating in any case. 
+
+I started this project because I really liked the idea of using something like the code below as my font stacks - rely on the system fonts + know which ones I'm calling. 
+
+I also really like being able to map / visuallize the backfills - here I want the 500 weight which Segoe UI doesn't have, so I use the 600 weight instead ... 
+
+	@font-face {
+		font-family: 'System Sans 500i'
+		font-weight: 500;
+		font-style: italic;	
+		src: (local 'San Francisco Text Medium Italic'), // 500
+			(local 'Sego UI SemiBold Italic'), // 600
+			...
+	}
+
+The challenge with `@font-face` is that you have to call the exact font name you want. 
+
+* For example, you cannot get bold or italic from `local(Arial)` becasue in this context it's not a family name, it's a font name - meaning a specific family+weight+style. 
+* Also, if I were going with a large body font, I'd want to use SF Display, not text. 
+
+I started this project specifically to capture the `local`s needed to create such stacks. And now I'm stuck with two truths: 
+
+* Letting `-apple-system` make the call tramples on what I think is the real beauty of @font-face for managing stacks - the ability to abstract things the way you want.
+* And using `local` tramples on the marelous thing `apple-system` is trying to do - releive me of font name woes and handle optimal rendering based on a user's device and settings. 
+
+I'm still not sure if I'll use `-apple-system` or `local` in my stacks ... But it has occured to me that I could treat `-apple-system` as a fallback like `sans-serif` and put it at the end of a `local` stack. 
+
+
+
+
+But San Francisco exemplifies why 
+
+
+
+
+
+
+
+
+
 System Fonts: Bottom Line
 
 | OS |sans-serif | serif | sans monospace | serif monospace |
