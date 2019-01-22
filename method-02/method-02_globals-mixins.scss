@@ -3,77 +3,34 @@
 //
 
 //
-// Expanded Globals - All families listed
+// sans-serif
 //
 
-// $font-family__sans: '-apple-system', 'BlinkMacSystemFont','Sego UI', 'Roboto', 'Arimo', 'DejaVu Sans', 'FreeSans', sans-serif;
-
-// $font-family__serif: 'Georgia', 'Noto Serif', 'Tinos', 'DejaVu Serif', 'FreeSerif', serif;
-
-// $font-family__mono: 'Menolo', 'Consolas', 'Droid Sans Mono', 'Cousine', 'DejaVu Sans Mono', 'FreeMono', monospace;
-
-
-//
-// Practical Globals - Let generics handle Chrome OS and Linux
-//
-
-$font-family__sans: '-apple-system', 'BlinkMacSystemFont','Sego UI', 'Roboto', sans-serif;
-
-$font-family__serif: 'Georgia', 'Noto Serif', serif;
-
-$font-family__mono: 'Menolo', 'Consolas', 'Droid Sans Mono', monospace;
-
+@include sans-300(1em);
+@include sans-300i(1em);
+@include sans-400(1em);
+@include sans-400i(1em);
+@include sans-600(1em);
+@include sans-600i(1em);
+@include sans-700(1em);
+@include sans-700i(1em);
+@include sans-900(1em);
+@include sans-900i(1em);
 
 //
-// Using a single @mixin
+// serif
 //
 
-@mixin theme-font($family, $style, $weight, $size){
-	font-family: $family;
-	font-style: $style;
-	font-weight: $weight;
-	font-size: $size;
-}
-
-h1 {
-	@include theme-font($font-family__serif, normal, 700, 1.6rem);
-}
-
+@include serif-400(1em);
+@include serif-400i(1em);
+@include serif-700(1em);
+@include serif-700i(1em);
 
 //
-// Using multiple @mixins - I like this better
+// monospace
 //
 
-@mixin serif-400($size) {
-	font-family: $font-family__serif;
-	font-style: normal;
-	font-weight: 400;
-	font-size: $size;
-}
-
-@mixin serif-400i($size) {
-	font-family: $font-family__serif;
-	font-style: italic;
-	font-weight: 400;
-	font-size: $size;
-}
-
-@mixin serif-700($size) {
-	font-family: $font-family__serif;
-	font-style: normal;
-	font-weight: 700;
-	font-size: $size;
-}
-
-@mixin serif-700i($size) {
-	font-family: $font-family__serif;
-	font-style: italic;
-	font-weight: 700;
-	font-size: $size;
-}
-
-
-h1 {
-	@include serif-700(1.6rem);
-}
-
+@include mono-400(1em);
+@include mono-400i(1em);
+@include mono-700(1em);
+@include mono-700i(1em);
