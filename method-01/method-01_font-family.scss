@@ -1,0 +1,56 @@
+//
+// Method 1: font-family
+//
+
+//
+// Expanded - All families shown
+//
+
+
+h1 {
+	font-family: '-apple-system', 'BlinkMacSystemFont','Sego UI', 'Roboto', 'Arimo', 'DejaVu Sans', 'FreeSans', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1.6rem;
+}
+
+p { 
+	font-family: 'Georgia', 'Noto Serif', 'Tinos', 'DejaVu Serif', 'FreeSerif', serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1rem; 
+ }
+
+pre, code {
+	font-family: 'Menolo', 'Consolas', 'Droid Sans Mono', 'Cousine', 'DejaVu Sans Mono', 'FreeMono', monospace;
+	font-style: normal;
+	font-weight: 400;	
+	font-size: 0.85rem;
+}
+
+
+//
+// Practical - let generic familes handle Chrome OS + Linux
+//
+
+
+h1 {
+	font-family: '-apple-system', 'BlinkMacSystemFont','Sego UI', 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1.6rem;
+}
+
+p { 
+	font-family: 'Georgia', 'Noto Serif', serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1rem; 
+ }
+
+pre, code {
+	font-family: 'Menolo', 'Consolas', 'Droid Sans Mono', monospace;
+	font-style: normal;
+	font-weight: 400;	
+	font-size: 0.85rem;
+}

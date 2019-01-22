@@ -1,0 +1,34 @@
+
+## @font-face Families
+
+'Emojis' - not in table below
+
+| W    | sans        | serif        | mono        |
+|------|-------------|--------------|-------------|
+| 100  | na          | na           | na          |
+| 100i | na          | na           | na          |
+| 200  | na          | na           | na          |
+| 200i | na          | na           | na          |
+| 300  | 'Sans 300'  | na           | na          |
+| 300i | 'Sans 300i' | na           | na          |
+| 400  | 'Sans 400'  | 'Serif 400'  | 'Mono 400'  |
+| 400i | 'Sans 400i' | 'Serif 400i' | 'Mono 400i' |
+| 500  | na          | na           | na          |
+| 500i | na          | na           | na          |
+| 600  | 'Sans 600'  | na           | na          |
+| 600i | 'Sans 600i' | na           | na          |
+| 700  | 'Sans 700'  | 'Serif 700'  | 'Mono 700'  |
+| 700i | 'Sans 700i' | 'Serif 700i' | 'Mono 700i' |
+| 800  | na          | na           | na          |
+| 800i | na          | na           | na          |
+| 900  | 'Sans 900'  | na           | na          |
+| 900i | 'Sans 900i' | na           | na          |
+
+## Usage
+
+h1 {
+	font-family: 'Sans 700'; // all you need
+	font-style: ; // don't use - won't change font that's loaded
+	font-weight: ; // don't use - won't change font that's loaded
+	font-stretch: ; // don't use - won't change font that's loaded
+}

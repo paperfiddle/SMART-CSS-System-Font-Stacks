@@ -1,0 +1,91 @@
+//
+// @file /method-03/_serif.scss
+//
+
+//
+// If you don't declare serif fonts, you'll get 
+// Times and Times New Roman on macOS, iOS, and Windows.
+//
+// I like Georgia, but have included some alternatives. 
+//
+//
+// In theory, 'serif' should render  
+// the Android, Chrome OS, and Linux fonts without `local`s. 
+//
+// This is because of how common families like 'Times' and 'serif'
+// are mapped back to the system fonts. 
+//
+
+
+@font-face {
+	font-family: 'Serif 400';
+	font-style: normal;
+	font-weight: 400;
+	font-stretch: normal;
+	src: local('Georgia'), // Windows, macOS, iOS
+		// local('Hoefler Text'), local('HoeflerText-Regular'), // macOS, iOS
+		// local('Baskerville'), local('Baskerville-Regular'), // macOS, iOS
+		// local('Palatino'), local('Palatino-Roman'), // macOS, iOS
+		// local('Cambria'), // Windows
+		// local('Constantia'), // Windows
+		// local('Noto Serif'), local('NotoSerif-Regular'), // Android
+		// local('Tinos'), // Chrome OS
+		// local('DejaVu Serif'), local('DejaVuSerif'), // Linux		
+		// local('FreeSerif '), local('FreeSerif'), // Linux
+		local(serif); // Android, Chrome OS, Linux
+}
+
+@font-face {
+	font-family: 'Serif 400i';
+	font-style: italic;
+	font-weight: 400;
+	font-stretch: normal;
+	src: local('Georgia Italic'), local('Georgia-Italic'),
+		// local('Hoefler Text Italic'), local('HoeflerText-Italic'),
+		// local('Baskerville Italic'), local('Baskerville-Italic'),
+		// local('Palatino Italic'), local('Palatino-Italic'),
+		// local('Cambria Italic'),
+		// local('Constantia Italic'),
+		// local('Noto Serif Italic'), local('NotoSerif-Italic'),
+		// local('Tinos Italic'), local('Tinos-Italic'),		
+		// DejaVu - no 400i - Falls back to 400
+		// local('FreeSerif Oblique'), local('FreeSerifOblique'),
+		local(serif); // Android, Chrome OS, Linux
+}
+
+@font-face {
+	font-family: 'Serif 700';
+	font-style: normal;
+	font-weight: 700;
+	font-stretch: normal;
+	src: local('Georgia Bold') local('Georgia-Bold'),
+		// local('Hoefler Text Black'), local('HoeflerText-Black'),
+		// local('Baskerville Bold'), local('Baskerville-Bold'),
+		// local('Palatino Bold'), local('Palatino-Bold'),
+		// local('Cambria Bold'),
+		// local('Constantia Bold'),
+		// local('Noto Serif Bold'), local('NotoSerif-Bold'),
+		// local('Tinos Bold'), local('Tinos-Bold'),
+		// local('DejaVu Serif Bold'), local('DejaVuSerif-Bold'),		
+		// local('FreeSerif Bold'), local('FreeSerifBold'),
+		local(serif); // Android, Chrome OS, Linux
+}
+
+@font-face {
+	font-family: 'Serif 700i';
+	font-style: italic;
+	font-weight: 700;
+	font-stretch: normal;
+	src: local('Georgia Bold Italic') local('Georgia-BoldItalic'),
+		// local('Hoefler Text Black Italic'), local('HoeflerText-BlackItalic'),
+		// local('Baskerville Bold Italic'), local('Baskerville-BoldItalic'),
+		// local('Palatino Bold Italic'), local('Palatino-BoldItalic'),
+		// local('Cambria Bold Italic'),
+		// local('Constantia Bold Italic'),
+		// local('Noto Serif Bold Italic'), local('NotoSerif-BoldItalic'),
+		// local('Tinos Bold Italic'), local('Tinos-BoldItalic'),
+		// DejaVu - no 700i - falls back to 700
+		// local('FreeSerif Bold Oblique'), local('FreeSerifBoldOblique'),
+		local(serif); // Android, Chrome OS, Linux
+}
+
